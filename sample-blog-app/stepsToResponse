@@ -1,0 +1,18 @@
+// generate response , give AI all the necessary information like Rules , file structure , master plan , prompt!
+// update the respective files
+
+// ---- THE ABOVE CODE IS FOR STARTING OUT ---- //
+
+// ---- USER SELECTS AN ELEMENT AND CHANGES SOMETHING ---- //
+// after that user can select anykind of element and then retrieve its ID and then match that ID in the AST code
+//retrieve that AST object and its ID eqvilent tag , first turn that tag into a jsx or compoenet tag , than send both of those ot AI
+//retrieve the data and set that file with new code
+
+// ---- USER PROMPTS TO AI FOR SOMECHANGES ---- //
+//get on which component we curretly are
+//take the users prompt , ask the AI to generate Query in how many queries the function will be done
+//take those query and query the AI and with the responses update the files
+
+// ---- ERROR STACK ---- //
+//implement a stack or que or somekind of way to get the new erorrs after new changes
+//take the new errors and saves them with their timestamp
